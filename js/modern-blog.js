@@ -157,7 +157,7 @@ var demo = (function (window) {
         if (!card.isOpen) {
             // Open sequence.
 
-            _setPatternBgImg($(this).find(SELECTORS.cardImage).find('image'));
+            // _setPatternBgImg($(this).find(SELECTORS.cardImage).find('image'));
 
             sequence.add(tweenOtherCards);
             sequence.add(card.openCard(_onCardMove), 0);
@@ -171,7 +171,6 @@ var demo = (function (window) {
             sequence.add(closeCard);
             sequence.add(tweenOtherCards, position);
         }
-
         sequence.play();
     };
 
