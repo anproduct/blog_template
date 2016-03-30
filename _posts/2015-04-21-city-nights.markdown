@@ -4,7 +4,7 @@ subtitle: A Beautiful shot during the night.
 author: Wferr
 avatar: img/authors/wferr.png
 image: img/b.jpg
-date: "016-03-31 12:12:12"
+date: "2016-03-31 12:12:12"
 published: true
 ---
 
